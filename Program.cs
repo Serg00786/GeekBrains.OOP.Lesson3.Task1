@@ -21,6 +21,16 @@ namespace GeekBrains.OOP.Lesson2.Task1
             balance = bankBill.ToDeposite(1100);
             Console.WriteLine(balance);
 
+            int sum = 1000;
+
+            if (balance > sum)
+            {
+               string result= bankBill.Transaction(bankBill, sum);
+                Console.WriteLine(result);
+            }
+
+
+
 
             Console.ReadKey();
         }
