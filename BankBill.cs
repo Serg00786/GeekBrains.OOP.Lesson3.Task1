@@ -40,5 +40,10 @@ namespace GeekBrains.OOP.Lesson2.Task1
         {
             return Balance+IncomingSum;
         }
+
+        internal string Transaction(BankBill bankBill, int sum)
+        {
+            return "Transferred succesfully";
+        }
     }
 }
